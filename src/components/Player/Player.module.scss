@@ -1,0 +1,144 @@
+.player {
+	width: 100%;
+	max-width: 290px;
+	padding: 20px 20px 35px 20px;
+	background: var(--bg);
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border: 0.5px solid rgba(#424242, 0.3);
+
+	.decorateText {
+		color: var(--);
+	}
+
+	.title {
+		width: 100%;
+
+		h1 {
+			color: var(--text);
+			font-size: 20px;
+		}
+
+		p {
+			color: var(--text-second);
+			font-weight: 300;
+			font-size: 15px;
+		}
+	}
+
+	.duration {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		margin-top: 10px;
+		gap: 10px;
+
+		.durationEntry {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			height: 5px;
+			background: rgba(#b80d0d, 0.5);
+			-webkit-transition: 0.2s;
+			transition: opacity 0.2s;
+			border-radius: 10px;
+		}
+
+		.durationEntry::-webkit-slider-thumb {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			width: 15px;
+			height: 15px;
+			background: var(--primary);
+			border: 2px solid var(--text-second);
+			cursor: grab;
+			border-radius: 100%;
+		}
+
+		.durationTime {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			p {
+				color: var(--text-second);
+				font-size: 14px;
+			}
+		}
+	}
+
+	.controls {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		margin-top: 30px;
+
+		.pause {
+			width: 55px;
+			height: 55px;
+			border-radius: 50%;
+			border: none;
+			background: var(--ui);
+			color: var(--bg);
+			font-size: 27px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			transition: all 0.4s;
+
+			&:hover {
+				transition: all 0.4s;
+				opacity: 0.4;
+			}
+		}
+
+		.controlSong {
+			width: 35px;
+			height: 35px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: var(--text);
+			font-size: 30px;
+			cursor: pointer;
+			background: rgba($color: #ffffff, $alpha: 0.1);
+			border: none;
+			transition: all 0.4s;
+
+			&:hover {
+				transition: all 0.4s;
+				opacity: 0.4;
+			}
+		}
+
+		.otherButton {
+			width: 30px;
+			height: 30px;
+			color: rgba(#ffffff, 0.6);
+			background: none;
+			border: none;
+			display: flex;
+			align-items: center;
+			font-size: 22px;
+			justify-content: center;
+			cursor: pointer;
+			transition: all 0.4s;
+
+			&:hover {
+				transition: all 0.4s;
+				opacity: 0.5;
+			}
+
+			&.active {
+				color: var(--primary);
+			}
+		}
+	}
+}

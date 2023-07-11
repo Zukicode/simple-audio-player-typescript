@@ -1,0 +1,23 @@
+@use './fonts';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+:root {
+	--bg: #000000;
+	--text: #ffffff;
+	--text-second: #bcbcbc;
+	--gray: #f2f2f2;
+	--ui: #fafafa;
+	--ui-second: #969696;
+	--primary: #b80d0d;
+}
+
+body {
+	background: var(--bg);
+	color: var(--text);
+}

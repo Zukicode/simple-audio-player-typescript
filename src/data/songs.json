@@ -1,0 +1,26 @@
+[
+	{
+		"id": 0,
+		"url": "https://muzfa.net/mp3/files/ecstacy-suicidal-idol-slowed-reverb-mp3.mp3",
+		"image": "https://i.ytimg.com/vi/2o9caU-oiZI/maxresdefault.jpg",
+		"name": "Ecstacy",
+		"author": "Sucidal idol",
+		"duration": 120
+	},
+	{
+		"id": 1,
+		"url": "https://muzgen.net/uploads/music/2023/01/Juice_WRLD_All_Girls_Are_The_Same.mp3",
+		"image": "https://m.media-amazon.com/images/I/61g9izps4vL._AC_UF894,1000_QL80_.jpg",
+		"name": "All Girl Are The Same",
+		"author": "Juice WRLD",
+		"duration": 166
+	},
+	{
+		"id": 2,
+		"url": "https://new.zvukofon.com/dl/1121146921/Memo_Boy_-_Brian_is_the_Most_Beautiful_(musportal.org).mp3",
+		"image": "https://i.scdn.co/image/ab67616d0000b273fd062989b0b63b82f5949524",
+		"name": "Brian is the Most Beautiful",
+		"author": "Memo boy",
+		"duration": 225
+	}
+]
